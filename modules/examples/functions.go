@@ -17,9 +17,19 @@ func calc(a int) (int, int) {
 	return square, cube
 }
 
+// null return
+func calc2(a int) (square int, cube int) {
+	square = a * a
+	cube = a * a * a
+
+	return
+}
+
 func main() {
 
 	fmt.Println(sum(3, 4))
 
 	fmt.Println(calc(2))
+
+	fmt.Println(calc2(4))
 }

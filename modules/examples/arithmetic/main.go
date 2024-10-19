@@ -10,12 +10,14 @@ func main() {
 
 	// +-*/
 	// %
-
+//variable declaration
 	var a float64 = 22
 	var b float64 = 8
 
 	var c int = 8
 	var d int = 3
+	
+	//output
 
 	fmt.Println("a + b =", a+b)
 

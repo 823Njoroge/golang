@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	// const Pi = 3.14
+	// check the max value
 	var number = math.Max(3, 5)
 
 	fmt.Println(number)

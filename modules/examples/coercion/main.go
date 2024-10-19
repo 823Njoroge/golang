@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt,Println("Lets learn coercion")
+	fmt.Println("Lets learn coercion")
 	var a int = 64
 	var b float64 = 6.4
 

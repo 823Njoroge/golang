@@ -6,10 +6,11 @@ import (
 	"fmt"
 )
 
+//sum function
 func sum(x int, y int) int {
 	return x + y
 }
-
+//square & cube
 func calc(a int) (int, int) {
 	var square int = a * a
 	var cube int = a * a * a
